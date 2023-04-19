@@ -1,0 +1,116 @@
+img {
+  width: 100%;
+}
+
+.navbar {
+  background-color: #e3f2fd;
+}
+.fa.fa-edit {
+  color: #18a2b9;
+}
+
+.list-group-item.delete:hover {
+  cursor: -webkit-grab;
+  background-color: pink;
+}
+
+.list-group-item.update:hover {
+  cursor: -webkit-grab;
+  background-color: gainsboro;
+}
+
+.list-group-item.board:hover {
+  cursor: -webkit-grab;
+  background-color: gainsboro;
+}
+
+.fa.fa-minus-circle {
+  color: red;
+}
+
+.form-group-payment-form{
+  display: inline-block;
+}
+
+.landing {
+  position: relative;
+  /* background: url("../img/showcase.jpg") no-repeat; */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+.card card-body{
+  display: inline-block;
+  background-color: lightblue; 
+}
+
+.main-footer{
+  color: white;
+  background-color: rgb(206, 54, 54);
+  padding-top: 3em;
+  padding-left: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 2vh;
+  flex: 1;
+  margin-top: 300px;
+  margin-left: 0px;
+}
+
+.wallet-creation-error{
+  text-align: left;
+}
+
+.createwalletform{
+ display: inline-block
+}
+
+/* .form-control{
+  width: 500px;
+
+} */
+.payment-form-error{
+  text-align: left;
+  margin-top: -1px;
+}
+.createwalletform{
+  display: inline-block;
+}
+.form-group-wallet-form{
+  display: inline-block;
+}
+.manual_paragraphs{
+  padding-left: 1em;
+}
